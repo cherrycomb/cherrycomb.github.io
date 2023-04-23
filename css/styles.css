@@ -1,0 +1,71 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+body {
+  /* apply custom rules to the body here */
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important
+}
+
+a {
+  color: #6a7935;
+}
+
+
+a:hover {
+  color: #a1aa7f;
+}
+
+header {
+  padding: 50px 0 50px;
+}
+
+.navbar {
+  --bs-navbar-padding-x: 0;
+  --bs-navbar-padding-y: 0.5rem;
+  --bs-navbar-color: rgba(0, 0, 0, 0.55);
+  --bs-navbar-hover-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+  --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-margin-end: 1rem;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-brand-hover-color: rgba(0, 0, 0, 0.9);
+  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: rgba(0, 0, 0, 0.1);
+  --bs-navbar-toggler-border-radius: 0.375rem;
+  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)
+}
+
+/* media query when the media is wider than 992px */
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+section {
+  padding: 80px 0;
+}
