@@ -1,2 +1,2 @@
 ## Mapping Portfolio
-This is a mapping portfolio created for the course NMP673: Design for Interactive Web Mapping at the University of Kentucky. It features interactive and static maps created by me, RL Martens. Link to the portfolio here: cherrycomb.github.io
+This is a mapping portfolio created for the course NMP673: Design for Interactive Web Mapping at the University of Kentucky. It features interactive and static maps created by me, RL Martens. View the portfolio [here] (cherrycomb.github.io). 
