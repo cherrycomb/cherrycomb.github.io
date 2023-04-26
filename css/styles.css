@@ -23,7 +23,12 @@ a:hover {
 }
 
 header {
-  padding: 50px 0 50px;
+  padding: 50px 0 50px; 
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.492), rgba(255, 255, 255, 0.936)), 
+    url('../images/moss.jpg');
+  background-size: cover;
+  /* background-blend-mode: multiply; */
+
 }
 
 .navbar {
